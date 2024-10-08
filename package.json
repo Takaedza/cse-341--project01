@@ -1,5 +1,5 @@
 {
-  "name": "cse-341-project01",
+  "name": "cse-341-project1",
   "version": "1.0.0",
   "description": "My First Project",
   "main": "server.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Takaedza/cse-341--project01.git"
+    "url": "git+https://github.com/Takaedza/cse-341--project1.git"
   },
   "author": "Takaedza Godfrey Mandinyenya",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Takaedza/cse-341--project01/issues"
+    "url": "https://github.com/Takaedza/cse-341--project1/issues"
   },
-  "homepage": "https://github.com/Takaedza/cse-341--project01#readme",
+  "homepage": "https://github.com/Takaedza/cse-341--project1#readme",
   "dependencies": {
     "dotenv": "^16.4.5",
     "express": "^4.21.0",
