@@ -1,0 +1,36 @@
+//LOCALHOST
+### Get all users
+Get http://localhost:3000/users
+
+
+### Get users by id
+Get http://localhost:3000/users/66f6bcc818594fa7a26e37e7
+
+
+### Create users
+Post http://localhost:3000/users HTTP/1.1
+content-type: application/json
+
+{
+    "_id": "66f6bcc818594fa7a26e37e7",
+    "email": "test@test.com",
+    "username": "test@test.com",
+    "name": "Hello",
+    "ipaddress": "94.121.163.63"
+}
+
+
+### PUT users
+PUT http://localhost:3000/users/66f6bcc818594fa7a26e37e7 HTTP/1.1
+content-type: application/json
+
+{
+    "_id": "66f6bcc818594fa7a26e37e7",
+    "email": "test@example.com",
+    "username": "test@test.com",
+    "name": "Hello",
+    "ipaddress": "94.121.163.63"
+}
+
+### DELETE users
+DELETE http://localhost:3000/users/622023f642f9ab4cd6e060b3
